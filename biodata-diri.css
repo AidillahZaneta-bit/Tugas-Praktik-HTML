@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*ELEMEN SELECTOR (body, h1, li, p)*/
+body{
+    background-color: #e0f2fe; /*Warna latar belakang*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+    margin: 0;
+}
+
+h1{
+    color: #047857;
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 3px solid #72bc98;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+li{
+    font-size: 16px;
+    color: #374151;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 16px;
+    color: #1f2937;
+    line-height: 1.5;
+}
+
+/*CLASS SELECTOR (.label-info & .motto-text)*/
+.label-info{
+    font-weight: bold; 
+    color: #0284c7; /* Warna teks label*/
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.motto-text{
+    font-style: italic;
+    background-color: #dcfce7; /*latar belakang motto*/
+    padding: 10px;
+    border-left: 4px solid #10b981;
+    color: #065f46;
+}
+
+/*ID SELECTOR (#biodata-card)*/
+#biodata-card{
+    background-color: #ffffff; /*Latar belakang kartu*/
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    width: 350px;
+}
